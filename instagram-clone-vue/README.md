@@ -27,7 +27,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - [x] Vue ve React arasındaki fark. vue-cli ile proje kurulumu
 - [x] CSS alt yapısı ve tipografi. projedeki (svg) ikonların hazırlanması
-- [ ] Sayfaları oluşturalım. Master-Page oluşturalım
+- [x] Sayfaları oluşturalım. Master-Page oluşturalım
 - [ ] Header tasarımı ve Anasayfa için layout oluşturalım
 - [ ] Proje host etmek için vercel.com deploy konfigrasyonu
 - [ ] Anasayfa'daki post componenti
