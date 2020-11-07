@@ -4,18 +4,11 @@
     <div class="timeline"> 
 
     <h1>Home</h1>
-    <CustomText class="a1" tag="p">Merhaba Dünya</CustomText>
-    <CustomText class="a2" tag="p" size="small">Merhaba Dünya</CustomText>
-    <CustomText class="a3" tag="p" size="xsmall">Merhaba Dünya</CustomText>
-    <CustomText tag="p" size="xxsmall">Merhaba Dünya</CustomText>
-    <IconHome width="60" height="60" />
-    <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Suscipit molestiae ab eligendi. Aut, reprehenderit provident vitae sit pariatur magnam id neque perspiciatis quia, tempora amet, incidunt expedita temporibus ullam fugit.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod a unde sint necessitatibus facere eum distinctio deserunt maiores eos veritatis, inventore corporis, accusantium animi iure quae harum porro expedita optio.</p>
+    <Avatar :size="60"/>
     </div>
     <div class="sidebar">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus deserunt sit eos laudantium praesentium, excepturi aliquid nisi, odio. Ut magnam maxime itaque impedit, qui, molestiae eos assumenda sit est!</p>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus deserunt sit eos laudantium praesentium, excepturi aliquid nisi, odio. Ut magnam maxime itaque impedit, qui, molestiae eos assumenda sit est!</p>
     </div>
 
    
@@ -23,15 +16,14 @@
 </template>
 
 <script>
-	import CustomText from '@/components/CustomText'
-  import IconHome from '../../icons/home.svg'
-
+  import Avatar from "@/components/avatar"
+	
 export default {
   name: "Home",
   components:{
-  	CustomText,
-    IconHome
+    Avatar
   }
+  
 };
 </script>
 
