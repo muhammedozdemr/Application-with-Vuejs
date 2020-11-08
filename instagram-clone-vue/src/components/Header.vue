@@ -37,7 +37,7 @@
     import IconExplore from "@/icons/explore.svg"
     import IconExploreFill from "@/icons/explore-fill.svg"
     import Container from "@/components/Container"
-    import Avatar from "@/components/avatar"
+    import Avatar from "@/components/Avatar"
 	export default {
 		name:"MainHeader",
         components:{

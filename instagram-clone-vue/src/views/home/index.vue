@@ -3,8 +3,15 @@
 
     <div class="timeline"> 
 
-    <h1>Home</h1>
-    <Avatar :size="60"/>
+
+    <Post />
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     </div>
     <div class="sidebar">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus deserunt sit eos laudantium praesentium, excepturi aliquid nisi, odio. Ut magnam maxime itaque impedit, qui, molestiae eos assumenda sit est!</p>
@@ -16,12 +23,12 @@
 </template>
 
 <script>
-  import Avatar from "@/components/avatar"
+  import Post from "@/components/Post"
 	
 export default {
   name: "Home",
   components:{
-    Avatar
+    Post
   }
   
 };
